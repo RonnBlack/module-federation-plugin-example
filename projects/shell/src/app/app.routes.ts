@@ -8,16 +8,12 @@ export const APP_ROUTES: Routes = [
       component: HomeComponent,
       pathMatch: 'full'
     },
-
-
-    // Your route here:
-
-    // {
-    //   path: 'flights',
-    //   loadChildren: () => import('mfe1/Module').then(m => m.FlightsModule)
-    // },
-
     {
+      path: 'flights',
+      loadChildren: () => import('mfe1/Module')
+        .then(m => m.FlightsModule)
+   },
+   {
       path: '**',
       component: NotFoundComponent
     }
