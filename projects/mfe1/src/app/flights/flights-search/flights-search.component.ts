@@ -13,8 +13,8 @@ export class FlightsSearchComponent {
   // Add this:
     user = this.service.user;
 
-    // And add that:
-    constructor(private service: AuthLibService) { }
+  // And add that:
+  constructor(private service: AuthLibService) { }
 
   search(): void {
     alert('Not implemented for this demo!');
