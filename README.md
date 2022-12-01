@@ -1,5 +1,7 @@
 # Example for @angular-architects/module-federation
 
+### Follow [Instructions](https://github.com/manfredsteyer/ng-conf-2022-lab/blob/main/readme.md)
+
 This examples loads a microfrontend into a shell:
 
 ![Microfrontend Loaded into Shell](./result.png)
