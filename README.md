@@ -1,5 +1,56 @@
 # Example for @angular-architects/module-federation
 
+#### 2022-12-04
+- Attempted to change into NX workspace but it didn't like the custom builder.
+- I am saving this branch just to for reference.
+
+```
+$ ng add @nrwl/angular
+? Would you like to share pseudonymous usage data about this project with the Angular Team
+at Google under Google's Privacy Policy at https://policies.google.com/privacy. For more
+details and how to change this setting, see https://angular.io/analytics. Yes
+
+Thank you for sharing pseudonymous usage data. Should you change your mind, the following
+command will disable this feature entirely:
+
+    ng analytics disable
+
+Global setting: enabled
+Local setting: enabled
+Effective status: enabled
+ℹ Using package manager: npm
+✔ Found compatible package version: @nrwl/angular@15.2.4.
+✔ Package information loaded.
+
+The package @nrwl/angular@15.2.4 will be installed and executed.
+Would you like to proceed? Yes
+✔ Packages successfully installed.
+The workspace cannot be migrated because of the following issues:
+
+---------
+  shell
+---------
+
+  - Unsupported builders:
+    - Errors:
+      - The "build" target is using an unsupported builder "ngx-build-plus:browser".
+      - The "serve" target is using an unsupported builder "ngx-build-plus:dev-server".
+      - The "extract-i18n" target is using an unsupported builder "ngx-build-plus:extract-i18n".
+    - The supported builders for applications are: "@angular-devkit/build-angular:browser", "@angular-devkit/build-angular:protractor", "@cypress/schematic:cypress", "@angular-devkit/build-angular:extract-i18n", "@nguniversal/builders:prerender", "@angular-devkit/build-angular:dev-server", "@angular-devkit/build-angular:server", "@nguniversal/builders:ssr-dev-server", "@angular-devkit/build-angular:karma" and "@angular-eslint/builder:lint".
+
+--------
+  mfe1
+--------
+
+  - Unsupported builders:
+    - Errors:
+      - The "build" target is using an unsupported builder "ngx-build-plus:browser".
+      - The "serve" target is using an unsupported builder "ngx-build-plus:dev-server".
+      - The "extract-i18n" target is using an unsupported builder "ngx-build-plus:extract-i18n".
+    - The supported builders for applications are: "@angular-devkit/build-angular:browser", "@angular-devkit/build-angular:protractor", "@cypress/schematic:cypress", "@angular-devkit/build-angular:extract-i18n", "@nguniversal/builders:prerender", "@angular-devkit/build-angular:dev-server", "@angular-devkit/build-angular:server", "@nguniversal/builders:ssr-dev-server", "@angular-devkit/build-angular:karma" and "@angular-eslint/builder:lint".
+
+```
+
 ### Follow [Instructions](https://github.com/manfredsteyer/ng-conf-2022-lab/blob/main/readme.md)
 
 This examples loads a microfrontend into a shell:
